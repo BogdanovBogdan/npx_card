@@ -41,7 +41,6 @@ const questions = [
 
 const data = {
   name: chalk.bold.green('             Bogdan Bogdanov'),
-  // handle: chalk.white('@anmol098'),
   work: `${chalk.white('Frontend Software Engineer at')} ${chalk
     .hex('#2b82b2')
     .bold('Ruport')}`,
@@ -54,6 +53,7 @@ const data = {
   labelWork: chalk.white.bold('      Work:'),
   labelGitHub: chalk.white.bold('      GitHub:'),
   labelLinkedIn: chalk.white.bold('      LinkedIn:'),
+  labelCard: chalk.white.bold('      Card:'),
 };
 
 const me = boxen(
@@ -62,10 +62,9 @@ const me = boxen(
     ``,
     `${data.labelWork}  ${data.work}`,
     ``,
-    `${data.labelTwitter}  ${data.twitter}`,
+    // `${data.labelTwitter}  ${data.twitter}`,
     `${data.labelGitHub}  ${data.github}`,
     `${data.labelLinkedIn}  ${data.linkedin}`,
-    `${data.labelWeb}  ${data.web}`,
     ``,
     `${data.labelCard}  ${data.npx}`,
     ``,
