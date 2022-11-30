@@ -1,14 +1,14 @@
 {
-  "name": "anmol",
+  "name": "bogdanov",
   "version": "5.0.0",
-  "description": "A personal card for Anmol Pratap Singh (@anmol098)",
+  "description": "A personal card for Bogdan Bogdanov (@BogdanovBogdan)",
   "main": "card.js",
   "bin": {
-    "anmol": "./card.js"
+    "BogdanovBogdan": "card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anmol098/npx_card.git"
+    "url": "git+https://github.com/BogdanovBogdan/npx_card.git"
   },
   "scripts": {
     "test": "node card.js",
@@ -32,6 +32,10 @@
     "npx card",
     "business card"
   ],
-  "author": "Anmol Singh <hi@anmolsingh.me> (https://anmolsingh.me/)",
-  "license": "ISC"
+  "author": "Bogdanov Bogdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BogdanovBogdan/npx_card/issues"
+  },
+  "homepage": "https://github.com/BogdanovBogdan/npx_card#readme"
 }
